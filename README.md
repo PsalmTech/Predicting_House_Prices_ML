@@ -18,7 +18,7 @@ hotwaterheating: Whether the house has hot water heating (yes/no).
 airconditioning: Whether the house has air conditioning (yes/no).
 
 # Dataset Source
-# Acknowledgements:
+Acknowledgements:
 Harrison, D. and Rubinfeld, D.L. (1978). Hedonic prices and the demand for clean air. J. Environ. Economics and Management.
 Belsley, D.A., Kuh, E., and Welsch, R.E. (1980). Regression Diagnostics. New York: Wiley.
 Objective
@@ -51,14 +51,13 @@ R² Score: Proportion of variance explained by the model.
 RMSE: Measure of prediction error.
 
 # Results
-Linear Regression:
-
-R² Score: [Insert result after running code]
-RMSE: [Insert result after running code]
-Random Forest Regressor:
-
-R² Score: [Insert result after running code]
-RMSE: [Insert result after running code]
+Linear Regression Performance:
+RMSE: 1331071.4167895108
+R² Score: 0.6494754192267803
+------------------------------
+Random Forest Regressor Performance:
+RMSE: 1401263.0789821919
+R² Score: 0.6115321143409216
 The Random Forest Regressor outperformed Linear Regression, demonstrating its ability to handle nonlinear relationships and feature interactions effectively.
 
 # Dependencies
@@ -69,13 +68,13 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-How to Run the Project
 
-# Clone the repository:
+#How to Run the Project
+## Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/housing-price-prediction.git
+git clone https://github.com/PsalmTech/Predicting_House_Prices_ML.git
 
 # Navigate to the project directory:
 bash
@@ -86,9 +85,8 @@ Upload the dataset (Housing.csv) to the project folder.
 Open and run the code in a Jupyter Notebook or Google Colab.
 
 # Visualizations
-Sample Correlation Heatmap
-
-Predictions vs True Prices
+The graph below illustrates the predicted vs. true values for both models, with an ideal fit represented by the red dashed line:
+https://drive.google.com/file/d/1XaPZUdTW0kK8WGbapTNISErNLRFU9boj/view?usp=drive_link
 
 # Future Work
 Explore advanced feature engineering techniques.
